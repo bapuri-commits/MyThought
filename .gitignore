@@ -1,0 +1,16 @@
+﻿# 옵시디언 설정 폴더 전체를 기본적으로 무시 (플러그인 코드/테마 포함)
+.obsidian/*
+
+# 기기간에 공유하고 싶은 설정만 골라서 되살리기 (원하면 주석 해제)
+# !.obsidian/app.json
+# !.obsidian/appearance.json
+# !.obsidian/hotkeys.json
+# !.obsidian/core-plugins.json
+# !.obsidian/community-plugins.json   # 설치 목록만(코드 아님)
+
+# 작업 상태/휴지통/시스템 파일은 항상 무시
+.trash/
+.DS_Store
+
+# 플러그인 의존성 (혹시 포함될 경우 대비)
+node_modules/
